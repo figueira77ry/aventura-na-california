@@ -7,82 +7,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>A procura da estação espacial perdida</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="img/cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <p>Durante uma pesquisa em um antigo arquivo digital, você encontra registros sobre uma estação espacial desaparecida, conhecida como Aurora-X. Dizem que ela guarda tecnologias esquecidas capazes de mudar o rumo da humanidade. Determinado(a), você decide começar sua busca!</p>
+            <button class="btn-proximo" data-proximo="1">Iniciar pela Terra</button>
+            <button class="btn-proximo" data-proximo="2">Partir direto para a Lua</button>
         </div>
+
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <p>Na Terra, você visita um centro de lançamentos abandonado. Ali, pode estar a primeira pista sobre a rota da Aurora-X.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o centro espacial</button>
+            <button class="btn-proximo" data-proximo="4">Desistir da missão</button>
         </div>
+
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>Na Lua, você chega a uma antiga base de pesquisa. Segundo os registros, um dos módulos contém informações cruciais. Por onde começar?</p>
+            <button class="btn-proximo" data-proximo="5">Examinar os laboratórios</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a cratera próxima</button>
         </div>
+
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>No centro espacial, você encontra coordenadas indicando que a próxima pista está em uma estação flutuando na órbita de Júpiter.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Júpiter</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="img/cenario-passo4-voltar-casa.png" alt="">
+            <p>Você decide que a missão é arriscada demais e retorna para casa, mas jamais deixa de imaginar o que encontraria no espaço profundo.</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Nos laboratórios lunares, você descobre um núcleo de dados antigo contendo registros que apontam Júpiter como destino para a próxima pista.</p>
+            <button class="btn-proximo" data-proximo="7">Rumo a Júpiter</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Na cratera, você encontra apenas rochas e poeira lunar. Nada útil para a busca.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar aos laboratórios</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>Chegando perto de Júpiter, você encontra um cinturão de gás com duas rotas possíveis para atravessá-lo.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela rota iluminada</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela rota escura</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>De volta aos laboratórios, você finalmente encontra os dados que indicam Júpiter como próximo destino.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para Júpiter</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>A rota iluminada leva você a um campo de destroços onde encontra um sinal antigo apontando diretamente para a localização da estação Aurora-X.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a Aurora-X</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>A rota escura termina em uma região turbulenta sem qualquer sinal da estação. Apesar da vista impressionante, não há nada por ali.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra rota</button>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="">
+            <p>Você finalmente encontra a Aurora-X abandonada, cheia de tecnologia avançada e registros históricos. Decide dedicar sua vida a estudar e proteger esse tesouro científico.</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Voltando e escolhendo a rota iluminada, você encontra o campo de destroços que aponta para a estação perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a Aurora-X</button>
         </div>
     </main>
     <script src="script.js"></script>
